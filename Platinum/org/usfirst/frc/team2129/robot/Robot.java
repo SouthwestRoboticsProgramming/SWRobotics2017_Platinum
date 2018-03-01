@@ -9,6 +9,7 @@ package org.usfirst.frc.team2129.robot;
 
 import org.usfirst.frc.team2129.robot.subsystems.ClimberSubsystem;
 import org.usfirst.frc.team2129.robot.subsystems.DriveSubsystem;
+import org.usfirst.frc.team2129.robot.subsystems.TestSubsystem;
 
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
@@ -25,6 +26,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 public class Robot extends TimedRobot {
 	public static final DriveSubsystem s_DriveTrain = new DriveSubsystem();
 	public static final ClimberSubsystem s_Climber = new ClimberSubsystem();
+	public static final TestSubsystem s_Test = new TestSubsystem();
 
 	Command m_autonomousCommand;
 	SendableChooser<Command> m_chooser = new SendableChooser<>();

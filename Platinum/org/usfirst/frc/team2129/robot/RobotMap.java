@@ -29,5 +29,7 @@ public class RobotMap {
 	public static MotorDescriptor climber1    = new PWMMotorDescriptor(0, true);
 	public static MotorDescriptor climber2    = new PWMMotorDescriptor(1, true);
 	
+	public static int testServo_PWM = 2;
+	
 	public static IEncoderDescriptor climberEncoder = new CANTalonEncoderDescriptor(driveLeft1);
 }

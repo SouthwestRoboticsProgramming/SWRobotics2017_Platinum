@@ -17,4 +17,5 @@ public class OI {
 	public static Joystick left = new Joystick(0);
 	public static Joystick right = new Joystick(1);
 	public static Joystick third = new Joystick(2);
+	public static Joystick fourth = new Joystick(3);
 }
